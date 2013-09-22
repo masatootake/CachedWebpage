@@ -16,8 +16,14 @@
 		69956E0417EF407300F5A873 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 69956E0317EF407300F5A873 /* Default.png */; };
 		69956E0617EF407400F5A873 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69956E0517EF407400F5A873 /* Default@2x.png */; };
 		69956E0817EF407400F5A873 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69956E0717EF407400F5A873 /* Default-568h@2x.png */; };
-		69956E0B17EF407400F5A873 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69956E0A17EF407400F5A873 /* ViewController.m */; };
-		69956E0E17EF407400F5A873 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69956E0C17EF407400F5A873 /* ViewController.xib */; };
+		69956E1617EF40F700F5A873 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69956E1517EF40F700F5A873 /* WebViewController.m */; };
+		69956E1917EF412100F5A873 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69956E1817EF412100F5A873 /* RootViewController.m */; };
+		69956E1B17EF413300F5A873 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69956E1A17EF413300F5A873 /* RootViewController.xib */; };
+		69956E1F17EF416A00F5A873 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69956E1E17EF416A00F5A873 /* WebViewController.xib */; };
+		69956E2517EF475800F5A873 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 69956E2217EF475800F5A873 /* Reachability.m */; };
+		69956E2617EF475800F5A873 /* RNCachingURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 69956E2417EF475800F5A873 /* RNCachingURLProtocol.m */; };
+		69956E2817EF47A800F5A873 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69956E2717EF47A800F5A873 /* SystemConfiguration.framework */; };
+		69956E2C17EF4D7200F5A873 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 69956E2B17EF4D7200F5A873 /* NJKWebViewProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +40,19 @@
 		69956E0317EF407300F5A873 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		69956E0517EF407400F5A873 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		69956E0717EF407400F5A873 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		69956E0917EF407400F5A873 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		69956E0A17EF407400F5A873 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		69956E0D17EF407400F5A873 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		69956E1417EF40F700F5A873 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		69956E1517EF40F700F5A873 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		69956E1717EF412100F5A873 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		69956E1817EF412100F5A873 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		69956E1A17EF413300F5A873 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		69956E1E17EF416A00F5A873 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		69956E2117EF475800F5A873 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		69956E2217EF475800F5A873 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		69956E2317EF475800F5A873 /* RNCachingURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCachingURLProtocol.h; sourceTree = "<group>"; };
+		69956E2417EF475800F5A873 /* RNCachingURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCachingURLProtocol.m; sourceTree = "<group>"; };
+		69956E2717EF47A800F5A873 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		69956E2A17EF4D7200F5A873 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		69956E2B17EF4D7200F5A873 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69956E2817EF47A800F5A873 /* SystemConfiguration.framework in Frameworks */,
 				69956DF217EF407300F5A873 /* UIKit.framework in Frameworks */,
 				69956DF417EF407300F5A873 /* Foundation.framework in Frameworks */,
 				69956DF617EF407300F5A873 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +73,7 @@
 		69956DE517EF407300F5A873 = {
 			isa = PBXGroup;
 			children = (
+				69956E2717EF47A800F5A873 /* SystemConfiguration.framework */,
 				69956DF717EF407300F5A873 /* CachedWebpage */,
 				69956DF017EF407300F5A873 /* Frameworks */,
 				69956DEF17EF407300F5A873 /* Products */,
@@ -83,11 +101,16 @@
 		69956DF717EF407300F5A873 /* CachedWebpage */ = {
 			isa = PBXGroup;
 			children = (
+				69956E2917EF4D7200F5A873 /* NJKWebViewProgress */,
+				69956E2017EF475800F5A873 /* RNCachingURLProtocol */,
 				69956E0017EF407300F5A873 /* AppDelegate.h */,
 				69956E0117EF407300F5A873 /* AppDelegate.m */,
-				69956E0917EF407400F5A873 /* ViewController.h */,
-				69956E0A17EF407400F5A873 /* ViewController.m */,
-				69956E0C17EF407400F5A873 /* ViewController.xib */,
+				69956E1717EF412100F5A873 /* RootViewController.h */,
+				69956E1817EF412100F5A873 /* RootViewController.m */,
+				69956E1A17EF413300F5A873 /* RootViewController.xib */,
+				69956E1417EF40F700F5A873 /* WebViewController.h */,
+				69956E1517EF40F700F5A873 /* WebViewController.m */,
+				69956E1E17EF416A00F5A873 /* WebViewController.xib */,
 				69956DF817EF407300F5A873 /* Supporting Files */,
 			);
 			path = CachedWebpage;
@@ -105,6 +128,26 @@
 				69956E0717EF407400F5A873 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69956E2017EF475800F5A873 /* RNCachingURLProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				69956E2117EF475800F5A873 /* Reachability.h */,
+				69956E2217EF475800F5A873 /* Reachability.m */,
+				69956E2317EF475800F5A873 /* RNCachingURLProtocol.h */,
+				69956E2417EF475800F5A873 /* RNCachingURLProtocol.m */,
+			);
+			path = RNCachingURLProtocol;
+			sourceTree = "<group>";
+		};
+		69956E2917EF4D7200F5A873 /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				69956E2A17EF4D7200F5A873 /* NJKWebViewProgress.h */,
+				69956E2B17EF4D7200F5A873 /* NJKWebViewProgress.m */,
+			);
+			path = NJKWebViewProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +205,8 @@
 				69956E0417EF407300F5A873 /* Default.png in Resources */,
 				69956E0617EF407400F5A873 /* Default@2x.png in Resources */,
 				69956E0817EF407400F5A873 /* Default-568h@2x.png in Resources */,
-				69956E0E17EF407400F5A873 /* ViewController.xib in Resources */,
+				69956E1B17EF413300F5A873 /* RootViewController.xib in Resources */,
+				69956E1F17EF416A00F5A873 /* WebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +219,11 @@
 			files = (
 				69956DFE17EF407300F5A873 /* main.m in Sources */,
 				69956E0217EF407300F5A873 /* AppDelegate.m in Sources */,
-				69956E0B17EF407400F5A873 /* ViewController.m in Sources */,
+				69956E1617EF40F700F5A873 /* WebViewController.m in Sources */,
+				69956E1917EF412100F5A873 /* RootViewController.m in Sources */,
+				69956E2517EF475800F5A873 /* Reachability.m in Sources */,
+				69956E2617EF475800F5A873 /* RNCachingURLProtocol.m in Sources */,
+				69956E2C17EF4D7200F5A873 /* NJKWebViewProgress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +236,6 @@
 				69956DFB17EF407300F5A873 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		69956E0C17EF407400F5A873 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69956E0D17EF407400F5A873 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -263,6 +303,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CachedWebpage/CachedWebpage-Prefix.pch";
 				INFOPLIST_FILE = "CachedWebpage/CachedWebpage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +315,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CachedWebpage/CachedWebpage-Prefix.pch";
 				INFOPLIST_FILE = "CachedWebpage/CachedWebpage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,6 +340,7 @@
 				69956E1317EF407400F5A873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,16 +8,21 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "RootViewController.h"
+#import "RNCachingURLProtocol.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // プロトコルの設定
+    [NSURLProtocol registerClass:[RNCachingURLProtocol class]];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    RootViewController *controller = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
     return YES;
 }
